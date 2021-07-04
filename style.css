@@ -17,7 +17,7 @@ body{
     background-repeat: no-repeat;
 }
 .welcome{
-    width: 50%;
+    width: 40%;
     padding: 10px;
     margin-left: 5%;
     text-align: justify;
@@ -27,9 +27,16 @@ body{
 }
 .welcome a{
     text-decoration: none;
-    background-image: linear-gradient(orange, tomato);
+    background-image: linear-gradient(45deg,orange, tomato);
     padding: 10px 40px;
     border-radius: 5px;
     color: white;
     font-weight: 700;
+}
+.dream-big{
+    display: flex;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-top: 150px;
 }
