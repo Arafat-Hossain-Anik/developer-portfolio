@@ -40,3 +40,47 @@ body{
     background-position: right;
     margin-top: 150px;
 }
+.dream-big h1{
+    font-size: 50px;
+}
+.dream-big h3{
+    font-size: 25px;
+    color: orange;
+}
+.experience{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experience > h1{
+    font-size: 50px;
+}
+.card h1{
+    font-size: 40px;
+}
+.card h3{
+    font-size: 20px;
+    color: orange;
+}
+.experience-card{
+    display: flex;
+
+}
+.card{
+    width: 40%;
+    margin: 5%;
+    padding: 20px;
+    text-align: justify;
+    box-shadow: 10px 5px 40px  #00000049;
+    
+}
+.full-stack-card{
+    border-left: 7px solid;
+    border-image: linear-gradient(salmon, tomato);
+    border-image-slice: 1;
+}
+.baby-stack-card{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(39, 36, 187), rgb(38, 186, 255));
+    border-image-slice: 1;
+}
